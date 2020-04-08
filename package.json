@@ -1,0 +1,19 @@
+{
+  "name": "aedesCluster",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aedes": "^0.41.0",
+    "aedes-persistence-mongodb": "^8.0.1",
+    "mqemitter-child-process": "^1.0.0",
+    "websocket-stream": "^5.5.2"
+  }
+}
