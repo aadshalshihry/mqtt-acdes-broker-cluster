@@ -54,10 +54,10 @@ aedes-protocol-decoder@^1.0.0:
     forwarded "^0.1.2"
     proxy-protocol-js "^4.0.3"
 
-aedes@^0.41.0:
-  version "0.41.0"
-  resolved "https://registry.yarnpkg.com/aedes/-/aedes-0.41.0.tgz#62386f4596e83e25b3540d815a887c514ff038f1"
-  integrity sha512-GuRiw4GhoaHUFdg1ZI+b2s9hBYf0yd1TV3HB9UPmN4C6PJNSeDcUbgYWEP+cnXmUaIszOBW1RbsW/Fkqb/c2tQ==
+aedes@^0.42.1:
+  version "0.42.1"
+  resolved "https://registry.yarnpkg.com/aedes/-/aedes-0.42.1.tgz#3718689b7eab50113bd468fee45fd5e991c653ff"
+  integrity sha512-YlmgzE691UsTAugQ8SJVVpjv+Qc9m+TQJDvXCQ/bU3xnUohuGdaNWWt1u9KNLSbJhr+NDQPp10nuvq7UCTF7zQ==
   dependencies:
     aedes-packet "^2.3.1"
     aedes-persistence "^8.1.1"
@@ -67,15 +67,14 @@ aedes@^0.41.0:
     fastfall "^1.5.1"
     fastparallel "^2.3.0"
     fastseries "^2.0.0"
-    mqemitter "^4.1.2"
+    mqemitter "^4.2.0"
     mqtt-packet "^6.3.2"
     proxy-protocol-js "^4.0.4"
     readable-stream "^3.6.0"
     retimer "^2.0.0"
     reusify "^1.0.4"
     shortid "^2.2.15"
-    through2 "^3.0.1"
-    uuid "^7.0.2"
+    uuid "^8.0.0"
 
 async-limiter@~1.0.0:
   version "1.0.1"
@@ -443,10 +442,10 @@ mqemitter@^2.0.0, mqemitter@^2.0.1:
     fastparallel "^2.0.0"
     qlobber "^1.8.0"
 
-mqemitter@^4.1.2:
-  version "4.1.3"
-  resolved "https://registry.yarnpkg.com/mqemitter/-/mqemitter-4.1.3.tgz#44292c8b4733823e850b9035cacbc16c0a937350"
-  integrity sha512-eRYzyPwfYWU+goBksUfUODXFftsPISE4wLy6V4gNUZDaFM7n2/C/V5816N2CBaAhPMGug9IDujsVq9f5bgvknA==
+mqemitter@^4.2.0:
+  version "4.4.1"
+  resolved "https://registry.yarnpkg.com/mqemitter/-/mqemitter-4.4.1.tgz#4cd2bc7d2fd5f2ba8c0c33ec68a8d70c9ff994ea"
+  integrity sha512-tXSsyzhsD70Jc7WFz1tjbfczGOAyObMhJ8O15ZFkpDI+g9ENmWFUo5BseAuS9HCxNnFtnMWo4lHh7yDi5CjVTQ==
   dependencies:
     fastparallel "^2.3.0"
     qlobber "^5.0.0"
@@ -820,7 +819,7 @@ through2@^2.0.0, through2@^2.0.3, through2@~2.0.3:
     readable-stream "~2.3.6"
     xtend "~4.0.1"
 
-through2@^3.0.0, through2@^3.0.1:
+through2@^3.0.0:
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/through2/-/through2-3.0.1.tgz#39276e713c3302edf9e388dd9c812dd3b825bd5a"
   integrity sha512-M96dvTalPT3YbYLaKaCuwu+j06D/8Jfib0o/PxbVt6Amhv3dUAtW6rTV1jPgJSBG83I/e04Y6xkVdVhSRhi0ww==
@@ -854,10 +853,10 @@ uuid@^2.0.1:
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-2.0.3.tgz#67e2e863797215530dff318e5bf9dcebfd47b21a"
   integrity sha1-Z+LoY3lyFVMN/zGOW/nc6/1Hsho=
 
-uuid@^7.0.2:
-  version "7.0.3"
-  resolved "https://registry.yarnpkg.com/uuid/-/uuid-7.0.3.tgz#c5c9f2c8cf25dc0a372c4df1441c41f5bd0c680b"
-  integrity sha512-DPSke0pXhTZgoF/d+WSt2QaKMCFSfx7QegxEWT+JOuHF5aWrKEn0G+ztjuJg/gG8/ItK+rbPCD/yNv8yyih6Cg==
+uuid@^8.0.0:
+  version "8.3.2"
+  resolved "https://registry.yarnpkg.com/uuid/-/uuid-8.3.2.tgz#80d5b5ced271bb9af6c445f21a1a04c606cefbe2"
+  integrity sha512-+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg==
 
 varint@^4.0.0:
   version "4.0.1"
